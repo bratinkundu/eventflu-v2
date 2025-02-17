@@ -8,9 +8,12 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+         primary: "#000000", // Black button color
+        secondary: "#F5F5F5", // Light gray background
       },
     },
   },
